@@ -7,26 +7,16 @@ import java.util.List;
 
 public class Employee {
 
-	private String employeeId;
-	private String firstName;
-	private String lastName;
-	private String idNumber;
-	private String address;
+	private String employeeId, firstName, lastName, idNumber, address;
 	
-	private int yearJoined;
-	private int monthJoined;
-	private int dayJoined;
-	private int monthWorkingInYear;
+	private int yearJoined, monthJoined, dayJoined, monthWorkingInYear;
 	
 	private boolean isForeigner;
 	private boolean gender; //true = Laki-laki, false = Perempuan
 	
-	private int monthlySalary;
-	private int otherMonthlyIncome;
-	private int annualDeductible;
+	private int monthlySalary, otherMonthlyIncome, annualDeductible;
 	
-	private String spouseName;
-	private String spouseIdNumber;
+	private String spouseName, spouseIdNumber;
 
 	private List<String> childNames;
 	private List<String> childIdNumbers;
